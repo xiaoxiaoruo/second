@@ -1,0 +1,98 @@
+/* 轮播图开始 */
+#myCarousel{
+    width: 1230px;
+    margin:0 auto;
+}
+#myCarousel .carousel-inner>.item img{
+    width: 600px;
+    height: auto;
+    display: block;
+    margin:0 auto;
+}
+
+/* 轮播图结束 */
+/* 主要内容开始 */
+.main{
+    width: 1230px;
+    margin:0 auto;
+    height: 430px;
+    margin-top:15px;
+    border-top:3px solid #003c97;
+}
+/* 左侧活动开始 */
+.main .main-left-top{
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    margin-top:10px;
+    position: relative;
+    font-size:22px;
+    text-indent: 10px;
+    color: #003c97;
+}
+.main .main-left-top .xian{
+    width: 125px;
+    margin: 14px 10px 0px 10px;
+    border-bottom:1px solid #003c97;
+}
+.main .main-left-top .activity{
+    margin-left:35px;
+}
+.main .main-left-top .activity a{
+    display: block;
+    width: 145px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color:#494949;
+    font-size: 18px;
+}
+.main .main-left-top .activity a:hover{
+    text-decoration: none;
+    color:#0080ff;
+}
+.main .main-left-top .activity li{
+    list-style:circle;
+}
+/* 左侧活动结束 */
+/* 中间活动开始 */
+.main-center-top{
+    width: 900px;
+    line-height: 30px;
+    position: absolute;
+    left:166px;
+    top:6px;
+    font-size:22px;
+    text-indent: 40px;
+    color: #003c97;
+}
+.main-center-top img{
+    width: 1024px;
+    height: 380px;
+}
+/* 中间活动结束 */
+/* 主要内容结束 */
+/* 底开始 */
+.footer{
+    height: 75px;
+    background: #044dbc;
+}
+.footer .footer-con{
+    height: 75px;
+    width: 1230px;
+    background: #044dbc;
+    color: #fff;
+    margin:0 auto;
+}
+.footer .footer-con1{
+    font-family: 微软雅黑;
+    width: 564px;
+    font-size: 12px;
+    float: left;
+    margin-top: 14px;
+}
+.footer .footer-con1 a{
+    color:#fff;
+    text-decoration: none;
+}
+/* 底结束 */
